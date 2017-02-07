@@ -1,0 +1,228 @@
+html * {
+	color-profile: sRGB !important;
+	rendering-intent: auto !important;
+}
+#launcher {
+	display: none !important;
+}
+.code-panel,
+.code-panel .panel-heading {
+	background-color: #292A2B !important;
+	color: rgba(255, 255, 255, 0.54) !important;
+}
+.code-panel .panel-heading h1 {
+	font-size: 10px !important;
+	letter-spacing: 2px !important;
+	text-transform: uppercase !important;
+}
+.code-panel .panel-heading + div {
+	height: calc(100% - 26px) !important;
+}
+.code-panel .panel-body {
+	position: relative;
+}
+.code-panel .panel-body .inherited {
+	display: inline-block;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	text-align: center;
+	text-transform: uppercase;
+	width: 100%;
+}
+.code-panel .panel-body .inherited .message {
+	width: 60%;
+	height: auto;
+	line-height: 1.5;
+	margin: 0 auto;
+	margin-bottom: 20px;
+	font-size: 25px;
+}
+.code-panel .panel-body .inherited .link-button {
+	background-color: #2196f3;
+	color: #fff;
+	padding: 10px 20px;
+	border-radius: 5px;
+	font-size: 12px;
+}
+.code-panel .panel-body .inherited .link-button:hover {
+	text-decoration: none;
+	background-color: #1c7cc8;
+}
+.CodeMirror {
+	background-color: #292A2B !important;
+	color: #839496 !important;
+}
+.box,
+.editor .top-boxes,
+.CodeMirror-gutter-wrapper,
+body.project .editor-pane,
+body.project .editor {
+	background: #292A2B !important;
+}
+.CodeMirror-cursor {
+	border-left-color: #ffffff !important;
+}
+.CodeMirror-gutters .CodeMirror-linenumbers,
+.CodeMirror-gutters .CodeMirror-foldgutter {
+	background-color: #292A2B !important;
+}
+.CodeMirror-gutters {
+	border-right: 1px solid #585a5c;
+}
+.CodeMirror-simplescroll-vertical,
+.CodeMirror-simplescroll-horizontal,
+.CodeMirror-scrollbar-filler,
+.CodeMirror-gutter-filler {
+	background-color: #292A2B !important;
+}
+.CodeMirror-simplescroll-vertical div,
+.CodeMirror-simplescroll-horizontal div {
+	background-color: #686a6c !important;
+	border: none !important;
+	border-radius: 4px !important;
+}
+.CodeMirror pre,
+.box pre,
+.editor .top-boxes pre,
+.CodeMirror-gutter-wrapper pre {
+	color: #E6E6E6 !important;
+}
+.cm-keyword {
+	color: #FF75B5 !important;
+}
+.cm-atom {
+	color: #ff2c6d !important;
+}
+.box-html .cm-atom {
+	color: #ff2c6d !important;
+}
+.cm-def {
+	color: #e6e6e6 !important;
+}
+.cm-variable {
+	color: #ffb86c !important;
+}
+.cm-variable-2 {
+	color: #ff9ac1 !important;
+}
+.cm-variable-3 {
+	color: #ff9ac1 !important;
+}
+.cm-header {
+	color: #E6E6E6 !important;
+}
+.cm-number {
+	color: #FFB86C !important;
+}
+.cm-property {
+	color: #f3f3f3 !important;
+}
+.cm-attribute {
+	color: #ffb86c !important;
+}
+.cm-builtin {
+	color: #E6E6E6 !important;
+}
+.cm-qualifier {
+	color: #E6E6E6 !important;
+}
+.cm-operator {
+	color: #f3f3f3 !important;
+}
+.cm-meta {
+	color: #b084eb !important;
+}
+.cm-string {
+	color: #19F9D8 !important;
+}
+.cm-string-2 {
+	color: #FFB86C !important;
+}
+.cm-tag {
+	color: #ff2c6d !important;
+}
+.box-css .cm-tag {
+	color: #ff2c6d !important;
+}
+.cm-tag.cm-bracket {
+	color: #ff2c6d !important;
+}
+.CodeMirror-linenumber {
+	color: #949496 !important;
+}
+.CodeMirror-guttermarker-subtle {
+	color: #949496 !important;
+}
+.cm-comment {
+	color: #676B79 !important;
+}
+.cm-searching,
+.CodeMirror-focused .CodeMirror-selected,
+.CodeMirror-selected {
+	background-color: #464B4E !important;
+}
+.CodeMirror-activeline-background {
+	background: #4C6A72 !important;
+}
+.header.blue-bar {
+	height: 0 !important;
+}
+.sidebar {
+	width: 0 !important;
+}
+.sidebar-container {
+	width: 0 !important;
+	display: none !important;
+}
+.mini-brand {
+	left: 0 !important;
+	z-index: 99;
+}
+.header-right {
+	width: 110px !important;
+	overflow-y: hidden !important;
+}
+.header-right>li {
+	display: none !important;
+}
+.header-right>li.user-dropdown.dropdown {
+	display: block !important;
+}
+.header-left,
+.sidebar-toggle,
+.full-brand,
+.header-right .z-publish,
+.header-right .zicon-nav-adduser,
+.header-right .zicon-nav-notification,
+.header-right .zicon-nav-help,
+.header-right .z-package {
+	width: 0 !important;
+	height: 0 !important;
+	display: none !important;
+}
+.zoomph-master .header {
+	z-index: 9;
+	left: 0 !important;
+}
+.zoomph-master .content {
+	top: 0 !important;
+	margin-left: 0 !important;
+}
+body,
+.data-panel,
+.data-panel>.panel-heading,
+.row.actions {
+	padding: 11px 36px 7px 36px !important;
+	background-color: #292A2B !important;
+	color: #f3f3f3 !important;
+}
+.row.actions>.text-right {
+	padding-top: 5px;
+}
+.panel-group>.panel,
+.panel-group .panel-heading {
+	background-color: #676B79 !important;
+	color: #f3f3f3 !important;
+}
