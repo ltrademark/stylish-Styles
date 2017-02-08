@@ -5,6 +5,16 @@ html * {
 #launcher {
 	display: none !important;
 }
+.btn-group.panel-toggles .btn {
+	border: none !important;
+	background-color: #48555f !important;
+	margin-right: 10px !important;
+	border-radius: 13px !important;
+}
+.btn-group.panel-toggles .btn.active {
+	border: none !important;
+	background-color: #2196f3 !important;
+}
 .code-panel,
 .code-panel .panel-heading {
 	background-color: #292A2B !important;
@@ -43,7 +53,7 @@ html * {
 	background-color: #2196f3;
 	color: #fff;
 	padding: 10px 20px;
-	border-radius: 5px;
+	border-radius: 17px;
 	font-size: 12px;
 }
 .code-panel .panel-body .inherited .link-button:hover {
@@ -167,7 +177,7 @@ body.project .editor {
 	background: #4C6A72 !important;
 }
 .header.blue-bar {
-	height:0 !important;	
+	height:0 !important;
 }
 .sidebar {
 	width:0 !important;
@@ -192,14 +202,23 @@ body.project .editor {
 .header-left,
 .sidebar-toggle,
 .full-brand,
-.header-right .z-publish, 
-.header-right .zicon-nav-adduser, 
-.header-right .zicon-nav-notification, 
+.header-right .z-publish,
+.header-right .zicon-nav-adduser,
+.header-right .zicon-nav-notification,
 .header-right .zicon-nav-help,
 .header-right .z-package {
 	width:0 !important;
 	height:0 !important;
 	display:none !important;
+}
+.header-right .user-dropdown.open .dropdown-toggle {
+	background-color: #363738 !important;
+}
+.header-right .user-dropdown .dropdown-menu li a {
+	color: #f3f3f3 !important;
+}
+.header-right .user-dropdown .dropdown-menu .divider {
+	background-color: #5b5d5f !important;
 }
 .zoomph-master .header {
 	z-index: 9;
@@ -219,13 +238,20 @@ body,
 .modal-content>.modal-header,
 .dropdown-menu {
 	background-color: #292A2B !important;
-    color: #f3f3f3 !important;
+  color: #f3f3f3 !important;
 }
 .row.actions {
 	padding: 11px 36px 7px 36px !important;
 }
 .row.actions>.text-right {
-	padding-top:5px;	
+	padding-top:5px;
+}
+.row.actions>.text-right:last-child {
+	padding: 0 !important;
+}
+.row.actions>.text-right:last-child .btn-default {
+	background-color: rgba(255, 255, 255, 0.3) !important;
+	color: #fff;
 }
 .panel-group>.panel,
 .panel-group .panel-heading{
