@@ -1,3 +1,26 @@
+*::-webkit-scrollbar {
+    width: 10px !important;
+    height: 10px !important;
+    background: #292A2B !important;
+    border: none !important;
+}
+*::-webkit-scrollbar-button {
+    display: none !important;
+}
+*::-webkit-scrollbar-thumb,
+*::-webkit-scrollbar-track {
+    border: 0 !important;
+    box-shadow: none !important;
+}
+*::-webkit-scrollbar-thumb {
+    min-height: 28px !important;
+    background: #686a6c !important;
+}
+*::-webkit-scrollbar-corner,
+*::-webkit-scrollbar-track {
+    background: #292A2B !important;
+}
+
 html * {
 	color-profile: sRGB !important;
 	rendering-intent: auto !important;
@@ -249,9 +272,17 @@ body,
 .row.actions>.text-right:last-child {
 	padding: 0 !important;
 }
+.row.actions>.text-right:last-child .btn {
+	margin-left: 10px;
+	border-radius: 13px !important;
+}
 .row.actions>.text-right:last-child .btn-default {
-	background-color: rgba(255, 255, 255, 0.3) !important;
+	border: none !important;
+	background-color: rgba(255, 255, 255, 0.1) !important;
 	color: #fff;
+}
+.row.actions>.text-right:last-child .btn-default:hover {
+	background-color: rgba(33, 150, 243, 0.54) !important;
 }
 .panel-group>.panel,
 .panel-group .panel-heading{
