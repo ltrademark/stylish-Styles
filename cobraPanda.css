@@ -21,10 +21,6 @@
     background: #292A2B !important;
 }
 
-html * {
-	color-profile: sRGB !important;
-	rendering-intent: auto !important;
-}
 #launcher {
 	display: none !important;
 }
