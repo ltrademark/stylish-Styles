@@ -28,6 +28,33 @@ html * {
 #launcher {
 	display: none !important;
 }
+.modal-window .modal-dialog {
+  margin: 0 !important;
+  width: auto !important;
+}
+.modal-window .modal-dialog .modal-content {
+  background-color: #2ecc71 !important;
+  border: none !important;
+  border-radius: 0 !important;
+}
+.modal-window .modal-dialog .modal-content .modal-body {
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+}
+.modal-window .modal-dialog .modal-content .modal-body div {
+  width: 100% !important;
+}
+.modal-window .modal-dialog .modal-content .modal-body div h1 {
+  margin: 0 !important;
+}
+.modal-window .modal-dialog .modal-content .modal-body div p {
+  display: none !important;
+}
+.modal-window .modal-dialog .modal-content .modal-body .btn {
+  background-color: #2ecc71 !important;
+  border: 1px solid #fff !important;
+}
 .btn-group.panel-toggles .btn {
 	border: none !important;
 	background-color: #48555f !important;
