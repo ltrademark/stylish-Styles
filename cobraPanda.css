@@ -53,9 +53,12 @@
 }
 .btn-group.panel-toggles .btn {
 	border: none !important;
-	background-color: #48555f !important;
+	background-color: rgba(255, 255, 255, 0.1) !important;
 	margin-right: 10px !important;
 	border-radius: 13px !important;
+}
+.btn-group.panel-toggles .btn:hover {
+	background-color: rgba(33, 150, 243, 0.54) !important;
 }
 .btn-group.panel-toggles .btn.active {
 	border: none !important;
@@ -292,6 +295,14 @@ body,
 .row.actions>.text-right {
 	padding-top:5px;
 }
+.row.actions>.text-right:first-child {
+  opacity: 0.54 !important;
+  font-weight: 100 !important;
+  font-style: italic !important;
+}
+.row.actions>.text-right:first-child strong {
+  font-style: normal !important;
+}
 .row.actions>.text-right:last-child {
 	padding: 0 !important;
 }
@@ -307,8 +318,37 @@ body,
 .row.actions>.text-right:last-child .btn-default:hover {
 	background-color: rgba(33, 150, 243, 0.54) !important;
 }
+.panel-group .panel-heading+.panel-collapse>.panel-body {
+  border: none !important;
+}
 .panel-group>.panel,
 .panel-group .panel-heading{
-	background-color: #676B79 !important;
-    color: #f3f3f3 !important;
+  background-color: #ccc;
+  color: #121212;
+  border-radius: 4px;
+  box-shadow: 0 1px 2px rgba(28, 29, 29, 0.6);
+}
+.panel-group .panel-heading h4 a {
+  font-weight: 900;
+  opacity: 0.54;
+}
+.form-control {
+  background-color: rgba(255, 255, 255, 0.15) !important;
+  color: #fff !important;
+  border: none !important;
+  border-radius: 13px !important;
+}
+.form-control + .input-group-btn .btn-square {
+  border-radius: 13px !important;
+  margin-left: 10px !important;
+}
+.panel-body .btn {
+  border-radius: 13px !important;
+}
+.form-control[disabled],
+.form-control[readonly],
+fieldset[disabled]
+.form-control {
+  pointer-events: none !important;
+  cursor: default !important;
 }
