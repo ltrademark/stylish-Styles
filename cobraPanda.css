@@ -1,8 +1,9 @@
 *::-webkit-scrollbar {
-    width: 10px !important;
+    width: 8px !important;
     height: 10px !important;
     background: #292A2B !important;
     border: none !important;
+    border-radius: 4px !important;
 }
 *::-webkit-scrollbar-button {
     display: none !important;
@@ -120,6 +121,12 @@ body.project .editor-pane,
 body.project .editor {
 	background: #292A2B !important;
 }
+.CodeMirror-line::selection,
+.CodeMirror-line>span::selection,
+.CodeMirror-line>span>span::selection {
+  background-color: #2c4961 !important;
+  border: 2px soild #2196f3 !important;
+}
 .CodeMirror-cursor {
 	border-left-color: #ffffff !important;
 }
@@ -223,7 +230,7 @@ body.project .editor {
 	background-color: #464B4E !important;
 }
 .CodeMirror-activeline-background {
-	background: #4C6A72 !important;
+	background: #215782 !important;
 }
 .header.blue-bar {
 	height:0 !important;
