@@ -25,6 +25,12 @@
 #launcher {
 	display: none !important;
 }
+.table-striped>tbody>tr:nth-child(odd)>td, .table-striped>tbody>tr:nth-child(odd)>th {
+  background-color: #414345 !important;
+}
+.feed-select-modal-body tbody>tr td {
+  border: none !important;
+}
 .modal .modal-md {
   margin: 0 !important;
   width: auto !important;
@@ -300,6 +306,9 @@ body.project .editor {
 .header-right .user-dropdown .dropdown-menu li a {
 	color: #f3f3f3 !important;
 }
+.header-right .user-dropdown .dropdown-menu li a:hover {
+  background-color: #474849 !important;
+}
 .header-right .user-dropdown .dropdown-menu .divider {
 	background-color: #5b5d5f !important;
 }
@@ -329,12 +338,12 @@ body,
 .row.actions>.text-right {
 	padding-top:5px;
 }
-.row.actions>.text-right:first-child {
+.actions div:nth-child(2) {
   opacity: 0.54 !important;
   font-weight: 100 !important;
   font-style: italic !important;
 }
-.row.actions>.text-right:first-child strong {
+.actions div:nth-child(2) strong {
   font-style: normal !important;
 }
 .row.actions>.text-right:last-child {
@@ -383,8 +392,11 @@ body,
 .form-control[readonly],
 fieldset[disabled]
 .form-control {
+  -webkit-user-select: none;
+  user-select: none;
   pointer-events: none !important;
   cursor: default !important;
+  opacity: 0.54;
 }
 hr {
   opacity: 0.1;
