@@ -25,30 +25,30 @@
 #launcher {
 	display: none !important;
 }
-.modal .modal-dialog {
+.modal .modal-md {
   margin: 0 !important;
   width: auto !important;
 }
-.modal .modal-dialog .modal-content {
+.modal .modal-md .modal-content {
   background-color: #2ecc71 !important;
   border: none !important;
   border-radius: 0 !important;
 }
-.modal .modal-dialog .modal-content .modal-body {
+.modal .modal-md .modal-content .modal-body {
   display: flex !important;
   justify-content: center !important;
   align-items: center !important;
 }
-.modal .modal-dialog .modal-content .modal-body div {
+.modal .modal-md .modal-content .modal-body div {
   width: 100% !important;
 }
-.modal .modal-dialog .modal-content .modal-body div h1 {
+.modal .modal-md .modal-content .modal-body div h1 {
   margin: 0 !important;
 }
-.modal .modal-dialog .modal-content .modal-body div p {
+.modal .modal-md .modal-content .modal-body div p {
   display: none !important;
 }
-.modal .modal-dialog .modal-content .modal-body .btn {
+.modal .modal-md .modal-content .modal-body .btn {
   background-color: #2ecc71 !important;
   border: 1px solid #fff !important;
 }
@@ -74,6 +74,7 @@
 	font-size: 10px !important;
 	letter-spacing: 2px !important;
 	text-transform: uppercase !important;
+  opacity: 0.54;
 }
 .code-panel .panel-heading + div {
 	height: calc(100% - 26px) !important;
@@ -258,6 +259,8 @@ body.project .editor {
 }
 .header.blue-bar {
 	height:0 !important;
+  padding: 0 !important;
+  border: none !important;
 }
 .sidebar {
 	width:0 !important;
@@ -364,7 +367,7 @@ body,
   opacity: 0.54;
 }
 .form-control {
-  background-color: rgba(255, 255, 255, 0.15) !important;
+  background-color: #494a4b !important;
   color: #fff !important;
   border: none !important;
   border-radius: 13px !important;
@@ -382,4 +385,7 @@ fieldset[disabled]
 .form-control {
   pointer-events: none !important;
   cursor: default !important;
+}
+hr {
+  opacity: 0.1;
 }
