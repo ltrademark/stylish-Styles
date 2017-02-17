@@ -1,3 +1,5 @@
+@import "font/fira_code.css";
+
 *::-webkit-scrollbar {
     width: 8px !important;
     height: 10px !important;
@@ -119,6 +121,10 @@
 .CodeMirror {
 	background-color: #292A2B !important;
 	color: #839496 !important;
+  font-family: 'Fira Code', monospace;
+  font-variant-ligatures: contextual;
+  font-feature-settings: "calt" 1;
+  text-rendering: optimizeLegibility;
 }
 .box,
 .editor .top-boxes,
