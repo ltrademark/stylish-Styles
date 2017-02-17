@@ -167,6 +167,9 @@ body.project .editor {
 	border: none !important;
 	border-radius: 4px !important;
 }
+.code-panel .CodeMirror pre {
+  line-height: 1.5 !important;
+}
 .CodeMirror pre,
 .box pre,
 .editor .top-boxes pre,
