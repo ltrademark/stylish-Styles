@@ -332,8 +332,7 @@ body.project .editor {
 	background-color: #5b5d5f !important;
 }
 .zoomph-master .header {
-	z-index: 9;
-	left:0 !important;
+	z-index: 0 !important;
 }
 .zoomph-master .content {
 	top: 0 !important;
