@@ -351,7 +351,9 @@ body,
   color: #f3f3f3 !important;
 }
 .row.actions {
-	padding: 11px 36px 7px 36px !important;
+    justify-content: space-between;
+    padding: 11px 5px !important;
+    padding-left: 35px !important;
 }
 .row.actions>.text-right {
 	padding-top:5px;
